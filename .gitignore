@@ -192,3 +192,45 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# === macOS system files ===
+.DS_Store
+
+# === Linux / Unix system files ===
+*.swp
+*.swo
+*~
+
+# === Logs and temporary files ===
+*.log
+*.tmp
+*.bak
+nohup.out
+
+# === Conda / Virtual environment ===
+.env/
+venv/
+conda-env/
+
+# === FASTA/CSV output or temporary analysis results ===
+*.fasta
+*.fna
+*.fa
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.txt
+
+# === Specific generated output files (multi-FASTA etc.) ===
+*_0-*.fasta
+*.wrp.fasta
+*.formatted.fasta
+
+# === Zenodo export or archive files ===
+*.zip
+*.tar.gz
+
+# === GitHub-specific ===
+LICENSE
+README.md
