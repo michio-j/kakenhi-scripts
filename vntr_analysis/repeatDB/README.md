@@ -29,7 +29,7 @@ The sequences were extracted and formatted from the complete genome of strain Z2
 
 ## 📜 Licensing and Attribution
 
-- This database was assembled by the author of this repository as part of research supported by **JSPS KAKENHI Grant JP21K12345**.
+- This database was assembled by the author of this repository as part of research supported by **JSPS KAKENHI Grant JP20K10462**.
 - You are free to use, modify, and redistribute these files for research or academic purposes.
 - If you use these data, **please cite the original paper (Schouls et al., 2006)**.
 
