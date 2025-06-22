@@ -36,7 +36,7 @@ VNTR_LIST=(VNTR9-1 VNTR7-2 VNTR7-1 VNTR21-2 VNTR13-1 VNTR3-2 VNTR6-1 VNTR4-5 VNT
 
 # === Process each sample ===
 for f in "$sampleDir"/*.fasta ; do
-    sample_name=$(basename "$f" | cut -c4- | cut -d'_' -f1)
+    sample_name=$(basename "$f" .fasta)
     sample_Rdir="$outdir/$sample_name"
     mkdir -p "$sample_Rdir"
     sample_tmpfile="$sample_Rdir/${sample_name}_results.txt"
