@@ -1,5 +1,16 @@
 # 🧬 VNTR Analysis Toolkit (Neisseria meningitidis)
 
+> ⚠️ **Important Notes**  
+> - This is a **beta version**. Behavior and outputs may change in future updates.  
+> - Output repeat numbers are **estimates** based on sequence similarity via BLAST.  
+>   - These are **not guaranteed to reflect true biological copy numbers**.  
+>   - Especially for **VNTR4-2** and **VNTR9-2**, values may significantly differ from actual numbers.  
+>   - 🔍 **Users are responsible for reviewing and validating the results themselves.**  
+> - No post-processing or alignment quality filtering is applied.  
+> - Script structure and documentation were assisted by ChatGPT.
+
+---
+
 This repository provides a reproducible, script-based pipeline for estimating VNTR (Variable Number Tandem Repeat) copy numbers in *Neisseria meningitidis* using BLAST alignment against curated reference motifs.
 
 It includes:
@@ -7,8 +18,7 @@ It includes:
 - A manually curated reference database (`repeatDB`) derived from the Z2491 genome (NC_003112)
 - Instructions for preparing and using the system
 
-> 🔬 Developed under JSPS KAKENHI Grant Number **20K10462**  
-> 🛠️ Scripts revised and commented with the help of ChatGPT.
+> 🔬 Developed under JSPS KAKENHI Grant Number **20K10462**
 
 ---
 
@@ -70,15 +80,6 @@ bash VNTR2025050620fulreagion.sh \
 | `-DB`        | Path to BLAST-formatted repeatDB directory           |
 | `-sampleDir` | Directory of input FASTA files (amplicons/genome)    |
 | `-outDir`    | Output directory for results                         |
-
----
-
-## ⚠️ Notes
-
-- This is a **beta version**. Behavior and outputs may change.
-- Output repeat numbers are estimates derived from sequence similarity via BLAST; **not guaranteed to be biologically exact**.
-- Some loci (especially **VNTR4-2** and **VNTR9-2**) are known to yield divergent copy number estimates. Please verify manually.
-- No post-processing or alignment quality filtering is applied.
 
 ---
 
