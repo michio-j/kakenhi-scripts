@@ -98,7 +98,7 @@ This repository only contains an original shell script for automating external A
 
 ## 📄 License (MIT)
 
-Copyright (c) 2025 [michio-j]
+Copyright (c) 2025 michio-j
 
 Permission is hereby granted, free of charge, to any person obtaining a copy  
 of this software and associated documentation files (the “Software”), to deal  
@@ -117,3 +117,32 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,  
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN  
 THE SOFTWARE.
+
+---
+
+## 📚 References and Citations
+
+If you use this pipeline in a publication or presentation, please consider citing the original tools used:
+
+### 🔸 Abricate
+
+- Repository: [https://github.com/tseemann/abricate](https://github.com/tseemann/abricate)
+- Author: Torsten Seemann
+- No formal citation, but the author recommends citing the GitHub repository if used.
+
+### 🔸 BLAST+ (NCBI BLAST)
+
+- Website: [https://blast.ncbi.nlm.nih.gov/](https://blast.ncbi.nlm.nih.gov/)
+- Citation:
+  > Camacho C, et al. (2009). BLAST+: architecture and applications. *BMC Bioinformatics*, 10, 421.  
+  > [https://doi.org/10.1186/1471-2105-10-421](https://doi.org/10.1186/1471-2105-10-421)
+
+### 🔸 PointFinder
+
+- Repository: [https://bitbucket.org/genomicepidemiology/pointfinder](https://bitbucket.org/genomicepidemiology/pointfinder)
+- Citation:
+  > Zankari E, et al. (2017). PointFinder: a novel web tool for WGS-based detection of antimicrobial resistance associated with chromosomal point mutations in bacterial pathogens. *Journal of Antimicrobial Chemotherapy*, 72(10), 2764–2768.  
+  > [https://doi.org/10.1093/jac/dkx217](https://doi.org/10.1093/jac/dkx217)
+
+> Note: This pipeline uses these tools as-is and does not modify or redistribute their source code or databases.
+
